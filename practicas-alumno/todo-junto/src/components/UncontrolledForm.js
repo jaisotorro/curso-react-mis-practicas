@@ -20,7 +20,7 @@ const UncontrolledForm = () => {
         <form onSubmit={onSubmit}>
             Nombre: <input ref={nameRef} type="text" defaultValue={formState.name}></input>
             Color: <input ref={colorRef} type="color" defaultValue={formState.color}></input>
-            <button>Enviar info</button>
+            <button>Enviar informacion</button>
             <pre>
                 <code>
                     {JSON.stringify(formState,null,2)}
